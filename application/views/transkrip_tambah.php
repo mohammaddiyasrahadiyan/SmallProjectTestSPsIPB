@@ -19,8 +19,8 @@
         ?>
         
         <div class="form-group">
-            <label for="npm">NIM | Nama Mahasiswa</label>
-            <select class="form-control" name="npm" id="npm">
+            <label for="nim">NIM | Nama Mahasiswa</label>
+            <select class="form-control" name="nim" id="nim">
                 <option value="">Pilih..</option>
                 <?php
                 foreach ($dataTaranskrip as $key => $mhs) {
